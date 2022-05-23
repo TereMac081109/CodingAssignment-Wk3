@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class MethodsReview {
+
+	static boolean passwordChecker(String password) {
+		// Write your code below this line 
+		if (password.length()) < 8 {
+			return false;
+		} else {
+			return (password.contains("!"));
+		}
+			
+			
+		
+		
+		
+		
+	}
+    
+    // Do not change the code below this line
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		String password = in.nextLine();
+        boolean meetsRequirement = passwordChecker(password);
+		if (meetsRequirement) {
+		    System.out.println(password + " meets the requirements.");
+		} else {
+		    System.out.println(password + " does not meet the requirements.");
+		}
+	}
+}

@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+package Week3;
+
+public class ArraysReview {
+
+	static int[] buildArray(int num) {
+		// Write your code below
+	    int[] numArray = new int[num];
+		for (int i = 0; i < num; i++ ) {
+			numArray[i] = i;			
+		}
+		return numArray;	
+		
+		
+		
+		
+	}
+    // Do not change any of the code below this line
+	public static void main(String[] args) {
+		//Scanner in = new Scanner(System.in);
+		int num = 8;
+		//num = in.nextInt();
+		System.out.println("Your array is: ");
+		//System.out.println(Arrays.toString(buildArray(num)));
+	}
+	
+}

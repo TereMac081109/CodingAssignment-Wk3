@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+	
+package Week3;
+
+public class CodingReview {
+
+		public static void main(String[] args) {
+		
+			int numTimes = 3;
+			String userWord = "stop";
+			System.out.println(repeatWord(userWord,numTimes));
+			
+			static String repeatWord(String userWord, int numTimes) {
+				for (int i=0; i<numTimes; i++) {
+					String answerMe = userWord.toString();			
+				}
+				return (answerMe);
+
+			}
+			
+		}
+}
+	
+}

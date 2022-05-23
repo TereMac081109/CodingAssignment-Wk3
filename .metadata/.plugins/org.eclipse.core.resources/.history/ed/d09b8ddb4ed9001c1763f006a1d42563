@@ -1,0 +1,82 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class MethodsReview {
+	
+	static String repeatWord(String userWord, int numTimes) {
+		// Write your code in here 
+		String result = "";
+		for (int i=0; i<numTimes; i++) {
+			result += userWord;		
+		}
+		return (result);
+		
+	}
+
+//	static boolean passwordChecker(String password) {
+//		// Write your code below this line 
+//		//int x = password.length();
+//		if ((password.length()) < 8) {
+//			return false;
+//		} else {
+//			if (password.contains("!")){
+//				return true;
+//			} 
+//			else if (password.contains("$")){
+//				return true;
+//			} 
+//			else if (password.contains("%")){
+//				return true;
+//			}
+//			else if (password.contains("&")){
+//				return true;
+//			}			
+//			else {
+//				return false;
+//			}
+//		}
+//	}
+//			
+//    
+//    // Do not change the code below this line
+//	public static void main(String[] args) {
+//		String password = "thisshouldwork!";
+//        boolean meetsRequirement = passwordChecker(password);
+//        
+//        System.out.println(meetsRequirement);
+//		if (meetsRequirement) {
+//		    System.out.println(password + " meets the requirements.");
+//		} else {
+//		    System.out.println(password + " does not meet the requirements.");
+//		}
+//	}
+
+//
+//	static int rectanglePerimeter(int length, int width) {
+//		// Write your code here
+//		return ((length + width)*2);
+//		
+//		
+//		
+//	}
+
+    // Do not change the code below this line
+	public static void main(String[] args) {
+		//Scanner in = new Scanner(System.in);
+//	    int length = 549;
+//		int width = 120; 
+//		int perimeter = rectanglePerimeter(length, width);
+//		System.out.println("The rectangle has a perimeter of " + perimeter);
+	
+		int numTimes = 5;
+		String userWord = "sunny";
+		System.out.println(repeatWord(userWord,numTimes));
+		
+
+		
+	}
+}
+	
